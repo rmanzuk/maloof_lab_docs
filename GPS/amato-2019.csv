@@ -1,0 +1,10 @@
+"Latitude","Longitude","HAE","MSL","ID","FeatureName","Comment","GNSS Height","Vert Prec","Horz Prec","Std Dev"
+39.107070315,16.795760095,291.987,251.945,1,"Point_generic","SE corner of SE cement block1145",251.945,0.1,0.1,0.000034
+39.107050751,16.795707147,291.808,251.765,2,"Point_generic","sw corner of sw blk b4 bdg 1147",251.765,0.1,0.1,0.000044
+39.105962563,16.796454623,290.662,250.632,3,"Point_generic","sw end concrt sw end brdg 1153",250.632,0.1,0.1,0.000034
+39.107302633,16.796305323,291.396,251.359,4,"Point_generic","point 4",251.359,0.1,0.1,0.000018
+39.107459757,16.797602712,282.629,242.606,5,"Point_generic","se corner rock by river 1212",242.606,0.5,0.4,0.000619
+39.107620561,16.797526127,289.507,249.483,6,"Point_generic","red tin se side mid 1216",249.483,0.1,0.1,0.000047
+39.107867538,16.797710281,296.908,256.885,7,"Point_generic","se rock wall 12:19",256.885,0.1,0.1,0.000032
+39.108380611,16.797115079,327.124,287.091,8,"Point_generic","roadside corner cement blk 12:25",287.091,0.6,0.2,0.000060
+39.108675470,16.797448950,335.485,295.455,9,"Point_generic","12:28 ground by gate lock",295.455,0.3,0.3,0.000111

@@ -1,0 +1,34 @@
+Processing rover file, AMATO-2019.SSF ...
+...to output file, C:\Users\maloo\Documents\GNSS Projects\Giacco\AMATO-2019.cor
+    Carrier processing...
+        Selected 2383 positions for post-processing
+        Corrected 2305 positions
+        Failed to correct 78 positions
+              15 of these were due to missing base data
+            63 of these were due to insufficient satellites for position fix
+    Code processing...
+        Selected 2383 positions for post-processing
+        Corrected 2383 positions
+    Chose 1257 code solutions over the carrier solutions
+        1257 code solutions were of higher quality
+ 
+--------------------------------------------------
+Differential Correction Summary:
+    1 file processed.  In this file:
+        2383 (100.00%) of 2383 selected positions were code corrected by post-processing
+        2305 (96.73%) of 2383 selected positions were carrier corrected by post-processing
+        1257 (54.53%) of code positions chosen over carrier, as they were of higher quality
+
+    Estimated accuracies for 2383 corrected positions are as follows:
+            Range	Percentage
+            ----------	----------
+              0-5cm	     -
+             5-15cm	 3.40%
+            15-30cm	 4.83%
+            30-50cm	54.43%
+             0.5-1m	28.79%
+               1-2m	 5.41%
+               2-5m	 3.15%
+                >5m	     -
+
+Differential correction complete.
