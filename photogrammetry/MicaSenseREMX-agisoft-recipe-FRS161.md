@@ -1,4 +1,4 @@
-# Agisoft Workflow for MicaSense RedEdge MX---Specifically for FRS161
+# Agisoft Metashape Workflow for MicaSense RedEdge MX---Specifically for FRS161
 Bolton Howes, November 2019
 
 **note: This workflow is modified from [this ](https://agisoft.freshdesk.com/support/solutions/articles/31000148780-micasense-rededge-mx-processing-workflow-including-reflectance-calibration-in-agisoft-metashape-pro<strong), to make DEMs and Orthomosaics from MicaSense RedEdge MX photographs**
