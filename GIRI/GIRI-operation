@@ -1,0 +1,27 @@
+# GIRI Operation
+
+Basic Operation:
+1)	Measure coolant depth (no lower than 6”)
+2)	If the wheel has not run in a few hours, allow it to run for ~20 mins to rebalance
+Note: Glasses on while wheel is running
+3)	Check refractometry rating (should be around 2)
+4)	Sometimes check pH (9 to 10, higher is better)
+5)	Sometimes check hardness (~250)
+6)	Check alkalinity (greater than 240)
+Note: with all metrics, stability is more important than being at a certain number
+7)	Wipe down roller
+8)	Make sure roller will not get snagged on black backing
+9)	Push ‘Start’
+10)	Write in log
+11)	Ensure there is enough hard drive space for all captures
+12)	Restart capture 1
+13)	Type commands into Matlab
+
+Mixing and adding Coolant:
+1)	Depending on desired volume of coolant, pour DI into bucket
+2)	Add coolant at 2.5% concentration (always put DI in bucket and add coolant to it)
+3)	Stir
+4)	Pour into machine.
+
+When in the field:
+1)	Orient samples by selecting flat surface on sample and taking its strike and dip.
