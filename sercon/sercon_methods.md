@@ -239,10 +239,10 @@ Exclude any NBS standard that does not fit a line of best fit with the other sta
 
 l. Matlab will then give the prompt “Exclude any VTS?” Repeat step k for VTS.
 
-![ideal standards figure](/sercon/images/idealstandardsfig.png)
+![ideal standards figure](/sercon/images/Idealstandardsfig.png)
 Ideal configuration of standards, where all standards follow a tight, linearly decreasing trend  
 
-![not standards figure](/sercon/images/variablestandardsfig.png)
+![not standards figure](/sercon/images/unidealstandardsfig.png)
 Highly variable standards, which indicate a problem with the sercon or sample loading
 
 #### Common Problems - Steps j-l
