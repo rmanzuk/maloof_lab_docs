@@ -39,11 +39,12 @@ Bolton Howes, November 2019
 - Adaptive camera model fitting OFF
 
 ## 7. Optimize Cameras (10 minutes per iteration. ~1-2 hours)
-- From the 'Tools' menu select 'Optimize Cameras'. In the 'General' panel check on all options except 'Fit p3', 'Fit p4', and 'Fit k4'.
-- This now becomes an iterative process. Under the 'Model' Menu, select 'Gradual Selection' and then choose 'Reprojection Error'.
-- Now drag the bar to select the high error points, press 'OK' and then Delete on your keyboard (the backspace button doesn't work. It must be the Delete key).
-- Now optimize cameras again.
-- Repeat this 'Gradual Selection' and deletion until all the points have a reprojection error below 0.2, or at least kind of close. You will have to delete a lot of points, but don't worry. It actually helps in the end and makes next steps faster.
+- It is easy to overdo this step. So be careful and keep an eye on the dense cloud to make sure no weird shapes start popping out.
+- Go to **Tools**-->**Gradual Selection** and select **reprojection error**. Select all points above 0.5 and press **OK**.
+- On your keyboard press delete (FN+Delete on Macs, Del on PC).
+- Then press optimize Cameras
+- repeat for 2-3 iterations.
+- Then using one of the selection tools, select the tie points that that seem bad (i.e. are way above or below the rest of the model) and delete them, then re-optimize the cameras. 
 
 ## 8. Build Dense Cloud (Time: 4hrs for 1,000 photos)
 The Dense Point Cloud allows us to reconstruct a more accurate DEM.
