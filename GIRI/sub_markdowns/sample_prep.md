@@ -2,9 +2,9 @@
 
 1) This recipe assumes that your sample is well lithified or epoxy-injected such that it will withstand the grinding and imaging process without falling apart. For vacuum injection of epoxy into samples, contact [Wagner petrographic](http://wagnerpetrographic.com). We have had some luck mounting loose grains like ooids ourselves by 3D printing one of the boxes below and successively layering the grains in this [table top epoxy resin](https://masepoxies.com/product/table-top-epoxy?gclid=Cj0KCQjwsp6pBhCfARIsAD3GZuZvY6Mlc-rvrGY6VEFGhych-UP304RyY_hcOdk5y4VX3xdpKuVCHMcaAr-fEALw_wcB)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* [simple box](../cads_drawings/sample_embedding_boxes/epoxy_box.stl)<!-- {"embed":"true"} -->
+  * [simple box](../cads_drawings/sample_embedding_boxes/epoxy_box.stl)<!-- {"embed":"true"} -->
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[sectioned box](../cads_drawings/sample_embedding_boxes/ooids_box.stl)<!-- {"embed":"true"} -->
+  * [sectioned box](../cads_drawings/sample_embedding_boxes/ooids_box.stl)<!-- {"embed":"true"} -->
 
 2) Saw your sample down to size such the horizontal dimensions are roughly the size of the imaging field of view you plan to use. No need to grind superfluous rock, but a little extra is okay. Generally, rectangular prism shapes are easiest to work with, and certainly try to ensure that the top and bottom surface are close to parallel. If working with an oriented sample, I find it easiest to work with having the top surface be the oriented surface such that you know the orientation of your imaging plane and can do all later rotations with respect to that (just be sure the orientation mark is captured in one of the first images for record keeping).
 
