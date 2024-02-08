@@ -19,6 +19,7 @@
 - - -
 ## Operating recipes
 ### [Wheel balancing and truing](sub_markdowns/wheel_balancing_truing.md)
+### [Dressing the chuck](sub_markdowns/chuck_dressing.md)
 ### [Focusing the camera](sub_markdowns/focusing_camera.md)
 ### [Preparing a sample for serial grinding and imaging](sub_markdowns/sample_prep.md)
 ### [Mounting a new sample for serial grinding and imaging](sub_markdowns/starting_sample.md)
