@@ -1,0 +1,31 @@
+## Checklist of things to learn/know for operation
+- [ ] Wheel balancing
+- [ ] Wheel truing and dressing
+- [ ] Dusting the chuck (or other metals)
+- [ ] G code
+  - [ ] Writing simple G code for automated ginding/flattening protocols
+  - [ ] Navigating main G code of 3D sample processing with imaging
+- [ ] The basics of surface grinding
+  - [ ] Manual grinding
+  - [ ] Tips and tricks for achieving a good finish
+- [ ] Daily Maintinence
+  - [ ] Coolant
+  - [ ] Machine oil
+  - [ ] Compressed air systems
+- [ ] Longer term Maintinence
+  - [ ] Autolubricator
+- [ ] Epoxy mounting samples to metal plates
+- [ ] Setting up a new sample run
+- [ ] RCAM operation and changing lenses
+- [ ] Continuing to run a sample
+- [ ] The grinder control computer
+  - [ ] data storage and backup
+  - [ ] GIRI’s operation code base
+    - [ ] Matlab
+    - [ ] C++ SDk
+    - [ ] Capture One Processing Engine  
+  - [ ] Capture One
+- [ ] PLC
+  - [ ] Basic wiring and rationale on setup
+  - [ ] Writing ladder logic in Connected Components Workbench
+  - [ ] Ring and brick lights 
