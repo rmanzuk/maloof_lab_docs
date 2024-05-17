@@ -30,4 +30,5 @@
 ## Education
 ### [Checklist of things to learn/know for operation](sub_markdowns/education_checklist.md)
 ### [Known current issues or improvements we would like to make](sub_markdowns/issues_improvements.md)
+### [Troubleshooting common problems](sub_markdowns/how_to_fix_problems.md)
 
