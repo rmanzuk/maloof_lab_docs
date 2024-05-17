@@ -7,6 +7,7 @@
 ### [Pneumatic peripherals](sub_markdowns/pneumatics.md)
 ### [Camera and lenses](sub_markdowns/camera_lenses.md)
 ### [Wiring / electronics with PLC](sub_markdowns/wiring_plc.md)
+### [Summary of products to keep GIRI going](sub_markdowns/shopping_list.md)
 - - -
 ## Operation code
 ### [MATLAB](sub_markdowns/matlab_doc.md)
