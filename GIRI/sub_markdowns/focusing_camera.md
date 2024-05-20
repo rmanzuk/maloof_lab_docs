@@ -1,0 +1,15 @@
+## Basic steps for getting camera in focus with the grinding plane
+
+THE CAMERA AND LIGHTS SETUP NOW IS VERY HEAVY AND CAN BE DIFFICULT TO MOVE UP AND DOWN. RECOMMENDED TO HAVE TWO PEOPLE SO AT LEAST ONE PERSON ALWAYS HAS A HAND ON THE CAMERA.
+
+1. **Prepare a sample**: You need a surface to focus on that you know is in-line and parallel with the grinding plane. This can be a piece of paper or a sample that you know is flat. Place a mounted sample in imaging position on the chuck, and then use either sample_flatten or raster_flat to get a flat surface that occupies most of the field of view.
+
+2. **Set up for focusing**: Once your sample is flat, keep the table at the same y-position and move the z-position back to imaging position the field of view of the camera. Go to the control iMac, turn on the green light, and open live view in Capture One.
+
+3. **Set the fine adjustment to middle positoin**: Finer focusing of the camera will be easier if you start in the middle fine adjustment setting and have as much room as possible to move in either direction. Twist the fine adjustment thumbscrew (circled in orange [here](../photos/camera_focus.jpg)) to the approximate middle of its range.
+
+4. **Coarse adjust the camera**: Coarse adjustments are made by using an allen key to loosen the camera mount sled on the camera rail (circled in green [here](../photos/camera_focus.jpg)). ONCE LOOSENED, THE CAMERA WILL DROP IF NOT SUPPORTED, SO HANDS ON THE CAMERA. AGAIN, PREFERABLY A 2 PERSON JOB AT THIS POINT. Because your hands will be moving in and out of the live view feed, you probably cannot use the auto focus tools, so you will have to just move it to a position where it seems roughly in focus by eye. Then tighten the allen key back up.
+
+5. **Fine adjust the camera**: Now that the camera is roughly in focus, you can use the fine adjustment thumbscrew to get the camera in focus. Prior to moving the fine adjustment, set up some focus boxes on the sample surface in the Capture One live view, so you can track focus. Then use the fine adjustment thumbscrew to move the camera (left to lower, right to raise) until you get the sample in optimal focus as judged by the focus boxes. If you cannot get it into optimal focus within the range of the fine adjustment, return the fine adjustment to the approximate middle and repeat the coarse adjustment based upon what you learned from the first attempt.
+
+6. **Check focus on captured image**: Once you think you have the camera in focus, take a picture and check the focus manually. I also tend to capture a stack of images at ~half turn increments of the fine adjustment over the range of a full turn in either direction and select the position associated with the image I deem to have the best focus. This step is a little like subjective splitting hairs, so don't fret too much if you can't tell the difference between two images. You should just leave this step feeling confident the camera is in the best focus you can get it.
