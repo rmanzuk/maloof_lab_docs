@@ -1,0 +1,32 @@
+All the rasterflat G-codes run the wheel over some grinding area defined by:
+L TEACH, R TEACH (Z dimensions), and the X value you supply in line 15 of the program (G91G01X#.#F###). 
+You should also change the number of loops (line 2: M98P1000L###) to suit your needs. 
+Running this script will grind away L * -0.001 inches of rock.
+
+/**** Grind program cycle 0001 *****/
+G92Y0X0         /* Sets current Y and X as 0.
+M98P1000L50     /* M98=call a subprogram...P1000=subprogram 1000...L50=Number of loops!! Change this number to suit your needs!!
+M03             /* Turn spindle on. */ 
+/**** Subroutine 1000 ****/
+N1000G04X0.1    /* N1000: call this line Number 1000. When we called P1000 above, it refers to this line number. G04: "dwell" -- wait for X0.1 =? 0.1 minutes? seconds? before starting.
+M115            /* ?? something to do with firmware? */
+/** GRIND **/
+M08             /* Turn coolant on */
+M03             /* Turn wheel spindle on */
+G04X6.0         /* Wait 6 seconds? */
+G91G00Y-0.001   /* Step 0.001" in Y. Absolute position. (brings rock closer to wheel)*/
+M64             /* Stop table moving. */
+M63             /* Start moving the table between L teach and R teach */
+G91G01X6.5F150  /* THIS IS WHERE YOU ENTER X! Move X#.# inches across sample at a speed of F### */
+G92Y0           /* Reset Y zero -- we have finished rastering across the sample.
+M64             /* Stop table */
+M05             /* Turn wheel spindle off
+M09             /* Turn coolant off */
+G04X1.0         /* Dwell 1.0 seconds */
+G28Z0.0         /* Move sample to Z=0.0 (absolute positioning.*/
+G90G00X0.0      /* Go to initial X
+G04X0.1         /* Dwell 0.1 seconds */
+M115
+M99
+/**** Subroutine 1005 ****/
+never gets run, so don't worry about it.
