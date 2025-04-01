@@ -24,7 +24,10 @@
 10) The transfer may take a while so you might want to get out of `tmux` to have your terminal back while things are running. Hitting `ctrl+b` then `d` detaches from `tmux` without ending the file transfer. To return to an existing `tmux` session, begin a `tmux` instance with the `tmux` command, then list the active sessions with the command: `tmux ls`. To reactivate one of your active sessions use the command `tmux attach -d -t <session_index>` where `session_index` is the number of the session you want from the `tmux ls`. If you want to exit a `tmux` session completely because your transfer is over, hitting `ctrl+d` exits the session.
 
 11) If I want to download a few files from giristore, I tend to start an `ssh` session and navigate around the directories until I find the files I’m looking for and know their path within giristore. I then exit the session and start an rsync from the terminal on my local machine. For example, I used this command on Monday, October 16, 2023 at 5:18:22 PM to download some files (note the extra algorithm commands due to my Mac ssh version): 
-`rsync -avzh -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa rmanzuk@giristore.princeton.edu:/data/grinder/control_computer_data/stacey_thinnies_03.15.2021/ /Users/ryan/Downloads/`  
+`rsync -avzh -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa rmanzuk@giristore.princeton.edu:/data/grinder/control_computer_data/stacey_thinnies_03.15.2021/ /Users/ryan/Downloads/`
+
 **Update 3/31/25 by Julia:**
-The structure of the above command doesn't work for me (returns a link_stat error that it can't find my directory). Instead, I have to add an execute (-e) flag and put the ssh part of the command in quotes:
+
+The structure of the above command doesn't work for me (returns a link_stat error that it can't find my directory). Instead, I have to add an execute (-e) flag and put the ssh part of the command in quotes:  
+
 `rsync -avzh -e "ssh -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa" jwilcots@giristore.princeton.edu:/data/grinder/control_computer_data/2DSpring2025/image_logs/ /Volumes/X9/2DTrezona`
